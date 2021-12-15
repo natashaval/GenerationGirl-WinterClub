@@ -1,5 +1,6 @@
 package com.example.generationgirl
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -15,6 +16,12 @@ class MainActivity : AppCompatActivity() {
     val button = findViewById<Button>(R.id.bt_hello)
     button.setOnClickListener {
       Toast.makeText(this, "This is my Toast message!", Toast.LENGTH_LONG).show()
+    }
+
+    val viewButton = findViewById<Button>(R.id.bt_view)
+    viewButton.setOnClickListener {
+      val intent = Intent(this, ViewActivity::class.java)
+      startActivity(intent)
     }
   }
 }

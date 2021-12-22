@@ -13,3 +13,7 @@ Generation Girl Winter Club 2021 - sample code application
 - Day 2 [Mobile App I (Day 2) - English](https://docs.google.com/presentation/d/1tnS6R-DY_vNw69cHzTvqmPtwgeHpiWm7YMr74yZMRtk/edit?usp=sharing)
   - Object Oriented Programming
   - Introduction to Android - Layouting
+  
+- Day 3 [Mobile App I (Day 3) - English](https://docs.google.com/presentation/d/1Kk-teBxCkJMOBnZsoMUVWdOv505VDim3a-9-jhYkyZU/edit?usp=sharing)
+  - Collections - List and MutableList
+  - ListView

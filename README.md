@@ -20,3 +20,10 @@ Generation Girl Winter Club 2021 - sample code application
   
 - Day 4 [Mobile App I (Day 4) - English](https://docs.google.com/presentation/d/1LDSJEvt3eC56_4S86f5--wCFniuM6HKUJ4GGswMDJTQ/edit?usp=sharing)
   - Intent
+
+Project walkthrough:
+
+
+
+https://user-images.githubusercontent.com/37038907/147319873-42c9bd2e-59fc-412a-a647-4ae928320ae5.mp4
+

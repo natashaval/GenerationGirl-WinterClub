@@ -17,6 +17,35 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:id="@+id/tv_web"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_home"
+        android:drawablePadding="8dp"
+        android:drawableTint="@color/blue_dark"
+        android:text="Website"
+        android:textColor="@color/blue_dark"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@id/tv_email"
+        app:layout_constraintStart_toStartOf="@id/iv_logo"
+        app:layout_constraintTop_toBottomOf="@id/iv_logo" />
+
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_email"
+        android:drawablePadding="8dp"
+        android:drawableTint="@color/orange"
+        android:text="Email"
+        android:textAlignment="textEnd"
+        android:textColor="@color/orange"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@id/iv_logo"
+        app:layout_constraintStart_toEndOf="@id/tv_web"
+        app:layout_constraintTop_toTopOf="@id/tv_web" />
+
+    <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

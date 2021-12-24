@@ -17,3 +17,6 @@ Generation Girl Winter Club 2021 - sample code application
 - Day 3 [Mobile App I (Day 3) - English](https://docs.google.com/presentation/d/1Kk-teBxCkJMOBnZsoMUVWdOv505VDim3a-9-jhYkyZU/edit?usp=sharing)
   - Collections - List and MutableList
   - ListView
+  
+- Day 4 [Mobile App I (Day 4) - English](https://docs.google.com/presentation/d/1LDSJEvt3eC56_4S86f5--wCFniuM6HKUJ4GGswMDJTQ/edit?usp=sharing)
+  - Intent

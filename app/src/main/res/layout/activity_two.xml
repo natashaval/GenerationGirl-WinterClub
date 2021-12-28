@@ -6,48 +6,4 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".TwoActivity">
-
-
-    <Button
-        android:id="@+id/buttonClick"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@color/blue_dark"
-        android:text="Click!"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Natasha"
-        android:textAppearance="@style/TextAppearance.AppCompat.Small"
-        android:textSize="32sp"
-        app:layout_constraintEnd_toEndOf="@+id/editTextName"
-        app:layout_constraintStart_toStartOf="@+id/editTextName"
-        app:layout_constraintTop_toBottomOf="@+id/editTextName" />
-
-    <EditText
-        android:id="@+id/editTextName"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:inputType="text"
-        android:text="EnterYourName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonClick" />
-
-    <Button
-        android:id="@+id/buttonChangeName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Change Name"
-        android:layout_margin="16dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

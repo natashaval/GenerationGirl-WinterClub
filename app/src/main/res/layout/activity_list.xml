@@ -5,15 +5,4 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ListActivity">
-
-    <ListView
-        android:id="@+id/lv_months"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/pink_light"
-        tools:listitem="@layout/item_month"
-        app:layout_constraintEnd_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

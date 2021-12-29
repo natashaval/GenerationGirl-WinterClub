@@ -14,13 +14,12 @@ class ProfileActivity : AppCompatActivity() {
     super.onCreate(savedInstanceState)
     setContentView(R.layout.activity_profile)
 
-    // val buttonWebsite = findViewById<Button>(R.id.buttonWebsite)
+    val buttonWebsite = findViewById<Button>(R.id.buttonWebsite)
     val buttonSearch = findViewById<Button>(R.id.buttonSearch)
     val buttonEmail = findViewById<Button>(R.id.buttonEmail)
     val buttonYoutube = findViewById<Button>(R.id.buttonYoutube)
 
     // https://developer.android.com/guide/components/intents-common#ViewUrl
-    val buttonWebsite = findViewById<Button>(R.id.buttonWebsite)
     buttonWebsite.setOnClickListener {
       val url: Uri = Uri.parse("https://www.generationgirl.org/home-english")
       val webIntent = Intent(Intent.ACTION_VIEW, url)
@@ -30,7 +29,7 @@ class ProfileActivity : AppCompatActivity() {
     // https://developer.android.com/guide/components/intents-common#SearchWeb
     buttonSearch.setOnClickListener {
       val searchIntent = Intent(Intent.ACTION_WEB_SEARCH)
-      searchIntent.putExtra(SearchManager.QUERY, "Generation Girl Id")
+      searchIntent.putExtra(SearchManager.QUERY, "Generation Girl")
 
       if (intent.resolveActivity(packageManager) != null) {
         startActivity(searchIntent)

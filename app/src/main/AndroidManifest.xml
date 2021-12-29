@@ -5,19 +5,14 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="Winter Club 2021"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.GenerationGirl">
         <activity
-            android:name=".KotlinActivity"
-            android:exported="true" />
-        <activity
-            android:name=".JavaActivity"
-            android:exported="true" />
-        <activity
-            android:name=".TwoActivity"
-            android:exported="true" />
+            android:name=".EmptyActivity"
+            android:exported="true">
+        </activity>
         <activity
             android:name=".ListActivity"
             android:exported="true">
@@ -28,11 +23,20 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".KotlinActivity"
+            android:exported="true" />
+        <activity
+            android:name=".JavaActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TwoActivity"
+            android:exported="true" />
+        <activity
             android:name=".ViewActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true" />
+            android:exported="true"></activity>
     </application>
 
 </manifest>

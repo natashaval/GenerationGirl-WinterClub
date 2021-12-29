@@ -3,9 +3,9 @@ package com.example.generationgirl
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class TwoActivity : AppCompatActivity() {
+class EmptyActivity : AppCompatActivity() {
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
-    setContentView(R.layout.activity_two)
+    setContentView(R.layout.activity_empty)
   }
 }

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/textViewSecond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Second Activity"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonSecond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#7E57C2"
+        android:text="Open First Activity"
+        app:layout_constraintEnd_toEndOf="@+id/textViewSecond"
+        app:layout_constraintStart_toStartOf="@+id/textViewSecond"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSecond" />
+
+    <Button
+        android:id="@+id/buttonClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#26A69A"
+        android:text="Close Second Activity"
+        app:layout_constraintEnd_toEndOf="@+id/textViewSecond"
+        app:layout_constraintStart_toStartOf="@+id/textViewSecond"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSecond" />
+</androidx.constraintlayout.widget.ConstraintLayout>

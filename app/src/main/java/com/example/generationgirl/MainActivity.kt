@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
 
     val listButton = findViewById<Button>(R.id.bt_list)
     listButton.setOnClickListener {
-      startActivity(Intent(this, TwoActivity::class.java))
+      startActivity(Intent(this, ListActivity::class.java))
     }
 
     val textWeb = findViewById<TextView>(R.id.tv_web)

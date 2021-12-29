@@ -26,4 +26,29 @@
         app:layout_constraintEnd_toEndOf="@+id/textViewFirst"
         app:layout_constraintStart_toStartOf="@+id/textViewFirst"
         app:layout_constraintTop_toBottomOf="@+id/textViewFirst" />
+
+    <EditText
+        android:id="@+id/editTextFirstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#4DB6AC"
+        android:text="Open Profile"
+        app:icon="@drawable/ic_star"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonFirst" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
